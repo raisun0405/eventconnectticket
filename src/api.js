@@ -1,7 +1,7 @@
 // XS2Event API Service
 // Uses Vite proxy to avoid CORS issues: /api -> https://api.xs2event.com
 
-const BASE_URL = '/api/v1';
+const BASE_URL = 'https://api.xs2event.com/v1';
 const API_KEY = import.meta.env.VITE_API_KEY || '356baf5f18e8401aadbf0efc6459c53f';
 
 const headers = {
